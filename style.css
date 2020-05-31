@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+[class*=col] {
+  padding: 0;
+}
+
+/*-- Universal Style and Utility Classes --*/
+
+.bg-light {
+  background-color: #ECE3DB;
+}
+
+.bg-featured {
+  background-color: #D7C5B3;
+}
+
+.bg-image {
+  background-color: #ECE3DB;
+  background-size: cover;
+  background-position: center;
+}
+
+.padded {
+  padding: 5%;
+}
+
+section {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+header {
+  padding: 2% 5%;
+}
+
+footer {
+  padding: 2% 5%;
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+/*-- Typography --*/
+
+body{
+font-family: "Halant";
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: inline-block;
+  border-bottom: solid 1px transparent;
+}
+
+nav a:hover {
+  color: #B38D71;
+  border-bottom: solid 1px;
+}
+
+.button {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  color: #B38D71;
+}
+
+/*-- Background Images --*/
+
+.bg-leftCat {
+  background-image: url("images/leftcatlook.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-farCat {
+  background-image: url("images/farcat.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-rightCat {
+  background-image: url("images/rightlookcat.jpg");
+  background-position: 50% 35%;
+  background-size: cover;
+}
